@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-size:12px;
+	font-family:"宋体",Tahoma, Verdana, sans-serif;
+}
+a {
+	text-decoration:none;
+	cursor:pointer;
+}
+a:hover {
+	text-decoration:underline;
+}
+#container {
+	width:980px;
+	margin:0 auto;
+}
+/*header*/
+#header {
+	font-size:14px;
+	background-color:#0d0d0d;
+	margin-bottom:10px;
+}
+#header a {
+	color:#ccc;
+}
+.header_bg {
+	width:980px;
+	margin:0 auto;
+	position:relative;
+}
+.header_bar {
+	height:39px;
+}
+.logo {
+	display:inline;
+	float:left;
+}
+.logo img {
+	margin-bottom:-10px;
+	position:absolute;	
+}
+.user_bar1 {
+	display:inline;
+	float:right;
+}
+.user_bar2 {
+	display:inline;
+	float:right;
+	width:260px;
+}
+.user_btn {
+	display:inline;
+	line-height:39px;
+	vertical-align:middle;
+	padding:0 12px;
+}
+.user_btn_act {
+	display:inline-block;
+	width:80px;
+	height:39px;
+	padding:0;
+	background:url(../images/user_btn_act.png) repeat-x;
+	text-align:center;
+}
+.user_btn_icon {
+	display:inline-block;
+	width:40px;
+	height:39px;
+	background:url(../images/user_btn_icon.png) no-repeat;
+	margin-left:31px;
+	padding:0;
+}
+.user_nav {
+	width:150px;
+	position:absolute;
+	top:40px;
+	right:1px;
+	z-index:1;
+}
+#header .user_nav a {
+	display:block;
+	color:#000;
+}
+.user_nav img {
+	margin-bottom:-1px;
+}
+.user_nav_arrow {
+	background:#f7f7f7;
+	border:1px solid #cdcdcd;
+	border-radius:3px;
+	padding-bottom:6px;
+}
+.user_nav_name {
+	font-weight:bold;
+	line-height:32px;
+	vertical-align:middle;
+	margin-left:20px;
+}
+.user_nav_col {
+	border-top:1px solid #dedede;
+	
+}
+.user_nav_btn {
+	height:27px;
+	line-height:27px;
+	vertical-align:middle;
+	padding-left:20px;
+}
+#header a.user_nav_btn:hover{
+	color:#fff;
+	text-decoration:none;
+	background:url(../images/user_nav_act.png) repeat-x;
+}
+/*footer*/
+#footer {
+	width:980px;
+	margin:50px auto;
+	text-align:center;
+}
+.footer_line {
+	border-bottom:1px solid #ebebeb;
+	line-height:1px;
+	margin:10px 0;
+}
+#footer p {
+	color:#ccc;
+}
+/*buttons*/
+.button_blue_big {
+	display:block;
+	width:92px;
+	height:32px;
+	background:url(../images/buttons.png) no-repeat;
+	color:#fff;
+	fot-size:14px;
+	line-height:32px;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+}
+.button_blue_big:hover {
+	background-position:-100px 0;
+	text-decoration:none;
+}
+.button_blue_big:active {
+	background-position:-200px 0;
+}
+.button_gray {
+	display:block;
+	width:92px;
+	height:32px;
+	background:url(../images/buttons.png) no-repeat 0 -70px;
+	color:#000;
+	font-size:14px;
+	font-weight:bold;
+	line-height:32px;
+	text-align:center;
+	vertical-align:middle;
+}
+.button_gray:hover {
+	background-position:-100px -70px;
+	text-decoration:none;
+}
+.button_gray:active {
+	background-position:-200px 0;
+	background-position:-200px -70px;
+}
+/*title*/
+.col_title {
+	font-size:14px;
+	font-weight:bold;
+}
+.page_title {
+	font-size:18px;
+	font-weight:bold;
+	margin:20px 0;
+}
+/*左图右文*/
+.pic_text_box { 
+	overflow:hidden;
+	zoom:1;
+}    	
+.pic_left {
+	float:left;
+	margin-right:6px;
+}
+.text_right {
+	padding:5px;
+	overflow:hidden;
+}
+/*picture*/
+.pic_bo_small {
+	padding:4px;
+	border:1px solid #f0f0f0;
+	box-shadow:2px 2px 5px #d9d9d9;
+}
+/*user_name*/
+.user_name_list {
+	color:#369;
+}
+.user_name {
+	color:#369;
+}
+.user-name_bo {
+	font-weight:bold;
+}

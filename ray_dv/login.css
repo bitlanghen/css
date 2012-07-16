@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	position:relative;
+}
+#container {
+	position:relative;
+	height:600px;/*test*/
+}
+.login_cover {
+	height:100%;
+	width:100%;
+	background-color:#000;
+	position:absolute;
+	top:0;
+	left:0;
+	filter:alpha(opacity=50);
+	background:rgba(0,0,0,0.7);
+	zoom:1;
+	z-index:100;
+}
+.login {
+	width:558px;
+	background-color:#FFF;
+	position:absolute;
+	top:136px;
+	left:212px;
+	border-radius: 5px;
+	border:1px solid #FFF;
+	z-index:200;
+}
+.login_box {
+	position:relative;
+	overflow:hidden;
+	zoom:1;
+}
+.close_box {
+	display:block;
+	width:20px;
+	height:20px;
+	background:url(../images/box_close.png) no-repeat;
+	position:absolute;
+	top:15px;
+	right:15px;
+}
+.login_box .login_title {
+	height:50px;
+	font-size:16px;
+	font-weight:bold;
+	line-height:50px;
+	vertical-align:middle;
+	border-bottom:1px solid #e9e9e9;
+	padding-left:20px;
+}
+.login_btn {
+	margin-left:90px;
+}
+.login_btn a {
+	display:block;
+	width:380px;
+	height:42px;
+	background:url(../images/login_btn.png) no-repeat;
+}
+a.renren_login {
+	background-position:0 0;
+	margin:40px 0 25px;
+}
+a.sina_login {
+	background-position:0 -50px;
+}
+.login_text {
+	color:#666;
+	font-size:14px;
+	line-height:30px;
+	vertical-align:middle;
+	margin:40px 0 0 105px;
+}
+.login_text a {
+	color:#369;
+}
+
+.btn_cancle {
+	float:right;
+	margin:0 30px 24px 0;
+}
+
+
+
+
