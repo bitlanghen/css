@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+.register {
+	width:695px;
+	margin:60px auto ;
+	font-size:14px;
+}
+.register_title {
+	font-size:14px;
+	font-weight:bold;
+	padding-bottom:10px;
+	border-bottom:1px solid #d9d9d9;
+}
+.register_sheet  li {
+	margin:0 0 20px 110px;
+	overflow:hidden;
+	zoom:1;
+}
+.register_remind {
+	font-size:0.875em;
+	display:inline;
+	line-height:24px;
+}
+.register_sheet  li em {
+	color:#F00;
+	font-style:normal;
+	padding:0 6px;
+}
+.register_btn {
+	margin-left:100px;
+}
+/*set up profile*/
+.setup_profile {
+	overflow:hidden;
+	zoom:1;
+}
+.profile_portrait {
+	float:left;
+	padding:3px;
+	margin-right:16px;
+}
+.profile_list {
+	float:left;
+	width:782px;
+}
+.profile_sheet {
+	margin-bottom:40px;
+}
+#profile_secret {
+	display:block;
+	width:256px;
+	height:26px;
+	color:#999;
+	font-size:12px;
+}
+.register_sheet li {
+	overflow:hidden;
+	zoom:1;
+}
+.register_sheet li .profile_check {
+	float:left;
+	width:15px;
+	margin-right:15px;
+	overflow:hidden;
+}
+.profile_check_text {
+	float:left;
+	font-size:12px;
+	line-height:22px;
+	color:#999;
+}
+.profile_save_btn {
+	margin-top:16px;
+}
+.upload_file {
+	display:inline-block;
+	width:61px;
+	height:19px;
+	background:url(../images/file_btn.png) no-repeat;
+	position:relative;
+	overflow:hidden;
+}
+.upload_file .file_btn {
+	display:inline-block;
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	right:0;
+	opacity:0;
+	filter:alpha(opacity=0);
+	margin-right:0;
+}
+.upload_portrait_file {
+	margin-top:3px;
+}
+/*find_password*/
+.find_password {
+	width:700px;
+	margin:60px auto 0 ;
+}
+.back_login {
+	width:600px;
+	margin:60px auto 0;
+	text-align:center;
+}
+.back_remind {
+	font-size:14px;
+}
+.back_login_btn {
+	margin:30px auto 0;
+}
